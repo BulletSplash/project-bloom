@@ -104,7 +104,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: FARM_BOY-Jumping-Sheet_0
+      name: Farmer-Jump-Sheet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -118,14 +118,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce891ac7c438dcd48aa790de28ce9bce
-      internalID: -870100742
+      spriteID: 0c07b11f0a709554aac0693fa31a6b30
+      internalID: 1643704824
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FARM_BOY-Jumping-Sheet_1
+      name: Farmer-Jump-Sheet_1
       rect:
         serializedVersion: 2
         x: 48
@@ -139,14 +139,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 949f4f00ea36b134087d99873cc17cc0
-      internalID: 938871568
+      spriteID: 485236fd9f318534fa8d2bdacd5f65fa
+      internalID: 1380041170
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FARM_BOY-Jumping-Sheet_2
+      name: Farmer-Jump-Sheet_2
       rect:
         serializedVersion: 2
         x: 96
@@ -160,8 +160,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 380910634d981764f9514f190b7a745b
-      internalID: -1489380072
+      spriteID: 6e9f9b1ac2c65e84f9e1272e6378da4c
+      internalID: -212996873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer-Jump-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afcb31341678e754c89645856ca6c5f8
+      internalID: 1289995577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer-Jump-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d0230a13303e3f468db8e5077dc0e5e
+      internalID: -663269913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Farmer-Jump-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa41f1724d341ee4fad1becd65fe324e
+      internalID: -1861841973
       vertices: []
       indices: 
       edges: []
@@ -177,9 +240,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      FARM_BOY-Jumping-Sheet_2: -1489380072
-      FARM_BOY-Jumping-Sheet_0: -870100742
-      FARM_BOY-Jumping-Sheet_1: 938871568
+      Farmer-Jump-Sheet_3: 1289995577
+      Farmer-Jump-Sheet_5: -1861841973
+      Farmer-Jump-Sheet_0: 1643704824
+      Farmer-Jump-Sheet_2: -212996873
+      Farmer-Jump-Sheet_1: 1380041170
+      Farmer-Jump-Sheet_4: -663269913
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
