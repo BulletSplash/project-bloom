@@ -13,10 +13,6 @@ public class WorldBounds : MonoBehaviour
         player = GameObject.Find("Player");
         controller2D = player.GetComponent<CharacterController2D>();
     }
-    void Update()
-    {
-        
-    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Player")

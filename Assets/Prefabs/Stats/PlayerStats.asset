@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: PlayerStats
   m_EditorClassIdentifier: 
   damage: 10
-  maxHealth: 10
+  maxHealth: 3
   wayPoints: []

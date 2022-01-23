@@ -230,7 +230,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 10.187458, y: 0}
+  m_Offset: {x: 11.134352, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -241,7 +241,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 83.219734, y: 1}
+  m_Size: {x: 99.09836, y: 1}
   m_EdgeRadius: 0
 --- !u!4 &115563627
 Transform:
@@ -271,7 +271,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingPoint: {fileID: 670964872}
-  Player: {fileID: 2108012073}
 --- !u!1 &157912299
 GameObject:
   m_ObjectHideFlags: 0
@@ -1395,7 +1394,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 670964872}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.54, y: -0.7, z: 0}
+  m_LocalPosition: {x: -3.54, y: -0.65, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3417,11 +3416,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!1 &2108012073 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2114959418587390124, guid: f7aa4a8037080a94fa0bd33592bd36ba, type: 3}
-  m_PrefabInstance: {fileID: 2114959418782193285}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2108012075 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2114959418587390126, guid: f7aa4a8037080a94fa0bd33592bd36ba, type: 3}
@@ -3746,6 +3740,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2108012082, guid: f7aa4a8037080a94fa0bd33592bd36ba, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2114959418218350241, guid: f7aa4a8037080a94fa0bd33592bd36ba, type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2114959418218350241, guid: f7aa4a8037080a94fa0bd33592bd36ba, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -530093985
+      objectReference: {fileID: 0}
     - target: {fileID: 2114959418218350246, guid: f7aa4a8037080a94fa0bd33592bd36ba, type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.02
