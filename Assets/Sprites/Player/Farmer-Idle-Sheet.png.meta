@@ -128,169 +128,169 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: FARM_BOY-Sheet_0
+      name: Farmer-Idle-Sheet_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 32
         height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1cde19755c0872be0800000000000000
-      internalID: -1502090365638677055
+      spriteID: ce26c30705129744fa436f0bb0466b2b
+      internalID: 765181308
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FARM_BOY-Sheet_1
+      name: Farmer-Idle-Sheet_1
       rect:
         serializedVersion: 2
         x: 32
         y: 0
         width: 32
         height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 168531b3c8e333c00800000000000000
-      internalID: 879115124274845793
+      spriteID: 2b49d73c0a5ba9b409cf929893e1c7a1
+      internalID: 1409718195
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FARM_BOY-Sheet_2
+      name: Farmer-Idle-Sheet_2
       rect:
         serializedVersion: 2
         x: 64
         y: 0
         width: 32
         height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fae7f3fcc525ad8b0800000000000000
-      internalID: -5126694667240374609
+      spriteID: 465f69e7e12189041bcd0e937b057e3c
+      internalID: -1212394336
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FARM_BOY-Sheet_3
+      name: Farmer-Idle-Sheet_3
       rect:
         serializedVersion: 2
         x: 96
         y: 0
         width: 32
         height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c0858c463fc592ec0800000000000000
-      internalID: -3591237027413600244
+      spriteID: 5d4e98449924ad7499b6e5e8711da0d1
+      internalID: 2059834986
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FARM_BOY-Sheet_4
+      name: Farmer-Idle-Sheet_4
       rect:
         serializedVersion: 2
         x: 128
         y: 0
         width: 32
         height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed21cf7ca5f9ba670800000000000000
-      internalID: 8551103529744077534
+      spriteID: 550124e78ac34174694f28e805cb0abc
+      internalID: -607990457
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FARM_BOY-Sheet_5
+      name: Farmer-Idle-Sheet_5
       rect:
         serializedVersion: 2
         x: 160
         y: 0
         width: 32
         height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07328c24df50d83d0800000000000000
-      internalID: -3202897174685277328
+      spriteID: e10236311e0ca62489681371eed413b4
+      internalID: -1003151191
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FARM_BOY-Sheet_6
+      name: Farmer-Idle-Sheet_6
       rect:
         serializedVersion: 2
         x: 192
         y: 0
         width: 32
         height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 85cfb9208259e5030800000000000000
-      internalID: 3485387160706350168
+      spriteID: 77537df41035bee42a32a264e688084d
+      internalID: 318205774
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FARM_BOY-Sheet_7
+      name: Farmer-Idle-Sheet_7
       rect:
         serializedVersion: 2
         x: 224
         y: 0
         width: 32
         height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dfaa754a099dd4920800000000000000
-      internalID: 2976274144017492733
+      spriteID: a71926770c9a3164da6b80ebeb2b7e44
+      internalID: -940602235
       vertices: []
       indices: 
       edges: []
@@ -306,14 +306,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      FARM_BOY-Sheet_4: 8551103529744077534
-      FARM_BOY-Sheet_5: -3202897174685277328
-      FARM_BOY-Sheet_2: -5126694667240374609
-      FARM_BOY-Sheet_7: 2976274144017492733
-      FARM_BOY-Sheet_3: -3591237027413600244
-      FARM_BOY-Sheet_6: 3485387160706350168
-      FARM_BOY-Sheet_0: -1502090365638677055
-      FARM_BOY-Sheet_1: 879115124274845793
+      Farmer-Idle-Sheet_3: 2059834986
+      Farmer-Idle-Sheet_5: -1003151191
+      Farmer-Idle-Sheet_1: 1409718195
+      Farmer-Idle-Sheet_4: -607990457
+      Farmer-Idle-Sheet_2: -1212394336
+      Farmer-Idle-Sheet_6: 318205774
+      Farmer-Idle-Sheet_0: 765181308
+      Farmer-Idle-Sheet_7: -940602235
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

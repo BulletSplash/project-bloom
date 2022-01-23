@@ -5,20 +5,22 @@ using UnityEngine;
 public class BulletScript : MonoBehaviour
 {
     private int damage;
-    [SerializeField] private GameObject player;
     [SerializeField] private Stats stat;
+    [SerializeField] private float knockbackForce = 5f;
     private void Awake()
     {
-        damage = stat.Damage();
-        
+        damage = stat.Damage();       
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Player" || collision.gameObject.tag == "Ground")
+        Vector2 difference = (collision.transform.position - transform.position).normalized;
+        Vector2 force = difference * knockbackForce;
+        
+        collision.gameObject.GetComponent<Rigidbody2D>().AddForce(force, ForceMode2D.Impulse);
+        if (collision.gameObject)
         {
             Destroy(gameObject);
         }
     }
-
 }

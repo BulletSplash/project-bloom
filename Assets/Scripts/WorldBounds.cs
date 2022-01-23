@@ -5,14 +5,14 @@ using UnityEngine;
 public class WorldBounds : MonoBehaviour
 {
     [SerializeField] private GameObject startingPoint;
-    [SerializeField] private GameObject Player;
-    // Start is called before the first frame update
-    void Start()
+    private GameObject player;
+    CharacterController2D controller2D;
+    
+    private void Awake()
     {
-        
+        player = GameObject.Find("Player");
+        controller2D = player.GetComponent<CharacterController2D>();
     }
-
-    // Update is called once per frame
     void Update()
     {
         
@@ -21,7 +21,7 @@ public class WorldBounds : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            Player.transform.position = startingPoint.transform.position;
+           controller2D.StartCoroutine(controller2D.RespawnChar());
         }
     }
 }

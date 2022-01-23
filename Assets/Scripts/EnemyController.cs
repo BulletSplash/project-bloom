@@ -88,8 +88,9 @@ public class EnemyController : MonoBehaviour
     }
     void ShootBullet(float desTime)
     {
+        Vector3 playerPos = new Vector3(target.transform.position.x, target.transform.position.y + 1f, target.transform.position.z);
         GameObject bullet = Instantiate(bulletPrefab, bulletSpawnpoint.position, Quaternion.identity);
-        moveDirection = (target.position - bullet.transform.position);
+        moveDirection = ( playerPos - bullet.transform.position);
         moveDirection.Normalize();
 
         bullet.GetComponent<Rigidbody2D>().velocity = new Vector2(moveDirection.x, moveDirection.y) * shootSpeed;

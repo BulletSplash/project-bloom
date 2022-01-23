@@ -71,7 +71,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 34
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -128,169 +128,169 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: FARM_BOY-Running-Sheet 1_0
+      name: Farmer-Running-Sheet_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 48
         height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1322bb1851f929450800000000000000
-      internalID: 6094108160505356849
+      spriteID: d180ba70a320d1444af1aa8868343db1
+      internalID: -504224031
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FARM_BOY-Running-Sheet 1_1
+      name: Farmer-Running-Sheet_1
       rect:
         serializedVersion: 2
         x: 48
         y: 0
         width: 48
         height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f498351358589e510800000000000000
-      internalID: 1578939951474772303
+      spriteID: 353f7377758967c49b569daf7003cd77
+      internalID: 1286733698
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FARM_BOY-Running-Sheet 1_2
+      name: Farmer-Running-Sheet_2
       rect:
         serializedVersion: 2
         x: 96
         y: 0
         width: 48
         height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f9d9edd6a3d48ce0800000000000000
-      internalID: -1403764470191629837
+      spriteID: d2e47b916c012aa4a8eb6b8efc67dce4
+      internalID: 1652832634
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FARM_BOY-Running-Sheet 1_3
+      name: Farmer-Running-Sheet_3
       rect:
         serializedVersion: 2
         x: 144
         y: 0
         width: 48
         height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 80bcf49f2f2e18950800000000000000
-      internalID: 6449685674563980040
+      spriteID: 752188eb2212af54bac3891ddae7963e
+      internalID: 1079674923
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FARM_BOY-Running-Sheet 1_4
+      name: Farmer-Running-Sheet_4
       rect:
         serializedVersion: 2
         x: 192
         y: 0
         width: 48
         height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 49056b54c9c9060f0800000000000000
-      internalID: -1125727711844216684
+      spriteID: 92f42fad958e64c45bba12a5f8f93e3f
+      internalID: -1439316518
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FARM_BOY-Running-Sheet 1_5
+      name: Farmer-Running-Sheet_5
       rect:
         serializedVersion: 2
         x: 240
         y: 0
         width: 48
         height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e695d9e082b1a29c0800000000000000
-      internalID: -3951315864206354066
+      spriteID: 3cefa882c8e11ff4dac40eb004bd5c79
+      internalID: -1806844518
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FARM_BOY-Running-Sheet 1_6
+      name: Farmer-Running-Sheet_6
       rect:
         serializedVersion: 2
         x: 288
         y: 0
         width: 48
         height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 254dcbb4ea8b542e0800000000000000
-      internalID: -2142102989010316206
+      spriteID: 41159fdabde23c444a41e8e87fe6eff4
+      internalID: 1382698364
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FARM_BOY-Running-Sheet 1_7
+      name: Farmer-Running-Sheet_7
       rect:
         serializedVersion: 2
         x: 336
         y: 0
         width: 48
         height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9eb23e7b077751710800000000000000
-      internalID: 1663366963388427241
+      spriteID: a7e1dc024b9898c44b65fb3132eec1b8
+      internalID: -588630511
       vertices: []
       indices: 
       edges: []
@@ -306,14 +306,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      FARM_BOY-Running-Sheet 1_2: -1403764470191629837
-      FARM_BOY-Running-Sheet 1_5: -3951315864206354066
-      FARM_BOY-Running-Sheet 1_4: -1125727711844216684
-      FARM_BOY-Running-Sheet 1_0: 6094108160505356849
-      FARM_BOY-Running-Sheet 1_7: 1663366963388427241
-      FARM_BOY-Running-Sheet 1_3: 6449685674563980040
-      FARM_BOY-Running-Sheet 1_6: -2142102989010316206
-      FARM_BOY-Running-Sheet 1_1: 1578939951474772303
+      Farmer-Running-Sheet_7: -588630511
+      Farmer-Running-Sheet_0: -504224031
+      Farmer-Running-Sheet_6: 1382698364
+      Farmer-Running-Sheet_3: 1079674923
+      Farmer-Running-Sheet_2: 1652832634
+      Farmer-Running-Sheet_5: -1806844518
+      Farmer-Running-Sheet_4: -1439316518
+      Farmer-Running-Sheet_1: 1286733698
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

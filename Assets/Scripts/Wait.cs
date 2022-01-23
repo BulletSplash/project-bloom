@@ -3,19 +3,28 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using UnityEngine.Video;
 
 public class Wait : MonoBehaviour
 {
-    public float waitTime = 13.5f;
+    GameObject video;
+    VideoPlayer player;
 
     private void Awake()
     {
-          StartCoroutine(WaitToFinish());
+        video = GameObject.Find("Intro");
+        player = video.GetComponent<VideoPlayer>();
     }
+    private void Start()
+    {
+            StartCoroutine(WaitToFinish());       
+    }
+
     IEnumerator WaitToFinish()
     {
-        yield return new WaitForSeconds(waitTime);
-
+        player.Play();
+        yield return new WaitForSeconds(13f);
         SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex + 1);
-    }
+        Time.timeScale = 1;
+    } 
 }

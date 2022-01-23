@@ -37,6 +37,7 @@ public class GameManage : MonoBehaviour
     public void BackToMenu()
     {
         SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex - 1);
+        Time.timeScale = 1;
     }
     public void QuitGame()
     {

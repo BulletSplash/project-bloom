@@ -19,7 +19,7 @@ public class CharacterController2D : MonoBehaviour
     private float jumpTimer;
 
     [Header("PlayerStats")]
-    public int currenthealth = 1;
+    //public int currenthealth = 1;
     private int maxhealth = 1;
 
     [Header("Components")]
@@ -30,6 +30,7 @@ public class CharacterController2D : MonoBehaviour
     [SerializeField] private GameObject smoke;
     [SerializeField] private GameObject startingpoint;
     [SerializeField] private LayerMask groundLayer;
+    PlayerStats Status = new PlayerStats();
 
     [Header("UI")]
     [SerializeField] private Image heartContainer;
@@ -47,25 +48,31 @@ public class CharacterController2D : MonoBehaviour
     [SerializeField] private bool isGrounded = true;
     [SerializeField] private float groundLength = 0.6f;
     [SerializeField] private Vector3 colliderOffset;
-    private bool isAlive = true;
+    private bool isControlable = true;
+    private bool isDead = true;
 
     void Awake()
     {
-        maxhealth = stat[0].MaxHealth();
-        currenthealth = maxhealth;
-        heartHit.enabled = false;
-        heartContainer.rectTransform.sizeDelta = new Vector2(maxhealth * 100, 100);
-        heartFull.rectTransform.sizeDelta = new Vector2(currenthealth * 100, 100);
-        heartHit.rectTransform.sizeDelta = new Vector2(currenthealth * 100, 100);
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         particleSmoke = smoke.GetComponent<ParticleSystem>();
 
+        maxhealth = stat[0].MaxHealth();
+        heartHit.enabled = false;
+        isDead = false;
     }
-
+    private void Start()
+    {
+        StartCoroutine(RespawnChar());
+        
+        heartContainer.rectTransform.sizeDelta = new Vector2(maxhealth * 100, 100);
+        heartFull.rectTransform.sizeDelta = new Vector2(Status.CurrentHealth * 100, 100);
+        heartHit.rectTransform.sizeDelta = new Vector2(Status.CurrentHealth * 100, 100);
+        Debug.Log(Status.CurrentHealth);
+    }
     private void Update()
     {
-        if (!isAlive)
+        if (!isControlable)
         {
             return;
         }
@@ -82,7 +89,8 @@ public class CharacterController2D : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (!isAlive)
+        animator.SetBool("Dead", isDead);
+        if (!isControlable)
         {
             rb.velocity = Vector2.zero;
             return;
@@ -101,8 +109,9 @@ public class CharacterController2D : MonoBehaviour
         {
             particleSmoke.Stop();
         }
-        modifyPhysics();
+        ModifyPhysics();
         animator.SetFloat("Vertical", rb.velocity.y);
+        
     }
     
     private void MoveCharacter(float horizontal)
@@ -136,53 +145,82 @@ public class CharacterController2D : MonoBehaviour
         rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
         jumpTimer = 0;
     }
-    private void HitHeart(Collision2D collide)
+    public class PlayerStats
     {
-        if (collide.gameObject.tag == "Enemy" || collide.gameObject.tag == "Bullet")
-        {
-            StartCoroutine(OnHitHeatlth());
-        } 
+        private int currentHealth = 0;
+        private int damage = 0;
+        public int CurrentHealth { get { return currentHealth; } set { currentHealth = value;} }
+        public int Damage { get { return damage; } set { Damage = value; } }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         HitHeart(collision);
     }
+
+    private void HitHeart(Collision2D collide)
+    {
+        if (collide.gameObject.tag == "Enemy" || collide.gameObject.tag == "Bullet")
+        {
+            StartCoroutine(OnHitHeatlth());
+        }
+    }
+
     IEnumerator OnHitHeatlth()
     {
+        
         heartHit.enabled = true;
+        gameObject.GetComponent<SpriteRenderer>().enabled = false;
         yield return new WaitForSeconds(.1f);
         heartHit.enabled = false;
+        gameObject.GetComponent<SpriteRenderer>().enabled = true;
         yield return new WaitForSeconds(.1f);
         heartHit.enabled = true;
+        gameObject.GetComponent<SpriteRenderer>().enabled = false;
         yield return new WaitForSeconds(.1f);
-        currenthealth -= stat[1].Damage();
         heartHit.enabled = false;
+        gameObject.GetComponent<SpriteRenderer>().enabled = true;
+        Status.CurrentHealth -= stat[1].Damage();
 
-        if (currenthealth == 0)
+
+        if (Status.CurrentHealth == 0)
         {
-            isAlive = false;
+            isDead = true;
+            isControlable = false;
             heartFull.rectTransform.sizeDelta = new Vector2(0 * 100, 100);
             heartHit.rectTransform.sizeDelta = new Vector2(0 * 100, 100);
+
             gameObject.GetComponent<PolygonCollider2D>().enabled = false;
-            Time.timeScale = .5f;
-            yield return new WaitForSeconds(1f);
-            Time.timeScale = 1f;
+
+            yield return new WaitForSeconds(1.65f);
+
+            gameObject.GetComponent<SpriteRenderer>().enabled = false;
+
             yield return new WaitForSeconds(.5f);
-            RespawnChar();
+
+            gameObject.GetComponent<SpriteRenderer>().enabled = true;
+            StartCoroutine(RespawnChar());
+            isDead = false;
         }
+        
         heartContainer.rectTransform.sizeDelta = new Vector2(maxhealth * 100, 100);
-        heartFull.rectTransform.sizeDelta = new Vector2(currenthealth * 100, 100);
-        heartHit.rectTransform.sizeDelta = new Vector2(currenthealth * 100, 100);
+        heartFull.rectTransform.sizeDelta = new Vector2(Status.CurrentHealth * 100, 100);
+        heartHit.rectTransform.sizeDelta = new Vector2(Status.CurrentHealth * 100, 100);
     }
-    private void RespawnChar()
+    public IEnumerator RespawnChar()
     {
-        gameObject.GetComponent<PolygonCollider2D>().enabled = true;
-        isAlive = true;
-        currenthealth = maxhealth;
+        Status.CurrentHealth = maxhealth;
         transform.position = startingpoint.transform.position;
+        animator.SetTrigger("Revived");
+        gameObject.GetComponent<PolygonCollider2D>().enabled = true;
+        isControlable = false;
+
+        yield return new WaitForSeconds(2f);
+
+        animator.SetTrigger("Revived");
+        isControlable = true;
     }
-    private void modifyPhysics()
+    private void ModifyPhysics()
     {
         animator.SetBool("inGround", isGrounded);
         bool changingDirections =
