@@ -19,8 +19,7 @@ public class CharacterController2D : MonoBehaviour
     private float jumpTimer;
 
     [Header("PlayerStats")]
-    //public int currenthealth = 1;
-    private int maxhealth = 1;
+    private int maxhealth;
 
     [Header("Components")]
     private Rigidbody2D rb;
@@ -68,7 +67,6 @@ public class CharacterController2D : MonoBehaviour
         heartContainer.rectTransform.sizeDelta = new Vector2(maxhealth * 100, 100);
         heartFull.rectTransform.sizeDelta = new Vector2(Status.CurrentHealth * 100, 100);
         heartHit.rectTransform.sizeDelta = new Vector2(Status.CurrentHealth * 100, 100);
-        Debug.Log(Status.CurrentHealth);
     }
     private void Update()
     {
