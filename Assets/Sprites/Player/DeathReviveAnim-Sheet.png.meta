@@ -817,6 +817,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: DeathReviveAnim-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 0
+        width: 48
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: befe484d28bac2a4e86267ca7bba3135
+      internalID: 1886879852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -852,6 +873,7 @@ TextureImporter:
       DeathReviveAnim-Sheet_0: 1491373116
       DeathReviveAnim-Sheet_3: 2000150411
       DeathReviveAnim-Sheet_13: -952939269
+      DeathReviveAnim-Sheet_34: 1886879852
       DeathReviveAnim-Sheet_15: -5410575
       DeathReviveAnim-Sheet_20: -973497492
       DeathReviveAnim-Sheet_8: -1560438137

@@ -28,6 +28,7 @@ public class CharacterController2D : MonoBehaviour
     [SerializeField] Stats[] stat;
     [SerializeField] private GameObject smoke;
     [SerializeField] private GameObject startingpoint;
+    [SerializeField] private GameObject hitBoxObject;
     [SerializeField] private LayerMask groundLayer;
     PlayerStats Status = new PlayerStats();
 
@@ -44,6 +45,7 @@ public class CharacterController2D : MonoBehaviour
     [SerializeField] private float fallMultiplier = 5f;
 
     [Header("Collision")]
+    [SerializeField] private BoxCollider2D hitBox;
     [SerializeField] private bool isGrounded = true;
     [SerializeField] private float groundLength = 0.6f;
     [SerializeField] private Vector3 colliderOffset;
@@ -52,6 +54,9 @@ public class CharacterController2D : MonoBehaviour
 
     void Awake()
     {
+        hitBoxObject = GameObject.Find("HitBox");
+
+        hitBox = hitBoxObject.GetComponent<BoxCollider2D>();
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         particleSmoke = smoke.GetComponent<ParticleSystem>();
@@ -150,21 +155,7 @@ public class CharacterController2D : MonoBehaviour
         public int CurrentHealth { get { return currentHealth; } set { currentHealth = value;} }
         public int Damage { get { return damage; } set { Damage = value; } }
     }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        HitHeart(collision);
-    }
-
-    private void HitHeart(Collision2D collide)
-    {
-        if (collide.gameObject.tag == "Enemy" || collide.gameObject.tag == "Bullet")
-        {
-            StartCoroutine(OnHitHeatlth());
-        }
-    }
-
-    IEnumerator OnHitHeatlth()
+    public IEnumerator OnHitHeatlth()
     {
         
         heartHit.enabled = true;
@@ -183,13 +174,12 @@ public class CharacterController2D : MonoBehaviour
 
         if (Status.CurrentHealth == 0)
         {
+            particleSmoke.Stop();
             isDead = true;
             isControlable = false;
             heartFull.rectTransform.sizeDelta = new Vector2(0 * 100, 100);
             heartHit.rectTransform.sizeDelta = new Vector2(0 * 100, 100);
-
-            gameObject.GetComponent<PolygonCollider2D>().enabled = false;
-
+            hitBox.enabled = false;
             yield return new WaitForSeconds(1.65f);
 
             gameObject.GetComponent<SpriteRenderer>().enabled = false;
@@ -210,12 +200,13 @@ public class CharacterController2D : MonoBehaviour
         Status.CurrentHealth = maxhealth;
         transform.position = startingpoint.transform.position;
         animator.SetTrigger("Revived");
-        gameObject.GetComponent<PolygonCollider2D>().enabled = true;
+
         isControlable = false;
 
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(2.5f);
 
         animator.SetTrigger("Revived");
+        hitBox.enabled = true;
         isControlable = true;
     }
     private void ModifyPhysics()

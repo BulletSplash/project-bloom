@@ -104,13 +104,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: FlowerEnemyAttack_0
+      name: Flower-Attack-Phase_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 80
-        height: 52
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,20 +118,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb90bc1f43938024f87d05dba9a48cca
-      internalID: 1469706202
+      spriteID: 9112c05123be1274e9b01d543d77c9be
+      internalID: -1595185982
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FlowerEnemyAttack_1
+      name: Flower-Attack-Phase_1
       rect:
         serializedVersion: 2
-        x: 80
+        x: 48
         y: 0
-        width: 80
-        height: 52
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -139,20 +139,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f2df062b490917b4f82964386648c1ac
-      internalID: -767883950
+      spriteID: 08268cb997bdf3f46a7dee8042faa927
+      internalID: -850287101
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FlowerEnemyAttack_2
+      name: Flower-Attack-Phase_2
       rect:
         serializedVersion: 2
-        x: 160
+        x: 96
         y: 0
-        width: 80
-        height: 52
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,20 +160,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d03008133e43a464db2c40b839f590a4
-      internalID: -1267142944
+      spriteID: 59a4fc5387a400445bff86191ef5234c
+      internalID: 1265741057
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FlowerEnemyAttack_3
+      name: Flower-Attack-Phase_3
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a89b083a5e0dac44a74feebfee89fc6
+      internalID: 1164128881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flower-Attack-Phase_4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61216919cbf7ec74ba8503211725fd12
+      internalID: -1898696532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flower-Attack-Phase_5
       rect:
         serializedVersion: 2
         x: 240
         y: 0
-        width: 80
-        height: 52
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,20 +223,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76986072ff36f67418559da79714b759
-      internalID: 253716872
+      spriteID: cb8481cf4d9f8d54c9bc6ced37ed4096
+      internalID: -231917337
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FlowerEnemyAttack_4
+      name: Flower-Attack-Phase_6
       rect:
         serializedVersion: 2
-        x: 320
+        x: 288
         y: 0
-        width: 80
-        height: 52
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,20 +244,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c470f34999a8f243ae5f8d0489dece2
-      internalID: 51468522
+      spriteID: c7b08b7379981af44a83c8639083522b
+      internalID: 825284726
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FlowerEnemyAttack_5
+      name: Flower-Attack-Phase_7
       rect:
         serializedVersion: 2
-        x: 400
+        x: 336
         y: 0
-        width: 80
-        height: 52
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -223,20 +265,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8855c03ccc5930048a04bd711cc0d1bf
-      internalID: -470057587
+      spriteID: dadfd0ba899e7da4f886a291efab1f10
+      internalID: 1046212756
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FlowerEnemyAttack_6
+      name: Flower-Attack-Phase_8
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1777f9fc1a00c94a89b4e89c6a6b7f6
+      internalID: 817304293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flower-Attack-Phase_9
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4483af74af70b2743800d5126f9eb90c
+      internalID: -1723034809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flower-Attack-Phase_10
       rect:
         serializedVersion: 2
         x: 480
         y: 0
-        width: 80
-        height: 52
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -244,20 +328,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c0ef95e4451b89b4aa3d187da31e6931
-      internalID: -1578254176
+      spriteID: f4a5e1545ff409440b96cfe7a74a0ca0
+      internalID: 295729292
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FlowerEnemyAttack_7
+      name: Flower-Attack-Phase_11
       rect:
         serializedVersion: 2
-        x: 560
+        x: 528
         y: 0
-        width: 80
-        height: 52
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -265,20 +349,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 999bcf2d84d9e6f47b3121949dc44025
-      internalID: -1914247713
+      spriteID: e88e349a7046bdc4eae7d4ff0155e9a9
+      internalID: -1188911961
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FlowerEnemyAttack_8
+      name: Flower-Attack-Phase_12
       rect:
         serializedVersion: 2
-        x: 640
+        x: 576
         y: 0
-        width: 80
-        height: 52
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -286,20 +370,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 712844c8f4c7b7143bdd97a71a9a08f5
-      internalID: -1499907366
+      spriteID: 3065a8e259c5bda4baf048ca35ea4d06
+      internalID: 1350357374
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FlowerEnemyAttack_9
+      name: Flower-Attack-Phase_13
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4b0cb89717f2ef4bb54d2df73ce2bd3
+      internalID: -1049977901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flower-Attack-Phase_14
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05c2e763b435c564f9fdf93c7a066dd6
+      internalID: -1434555097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flower-Attack-Phase_15
       rect:
         serializedVersion: 2
         x: 720
         y: 0
-        width: 80
-        height: 52
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -307,20 +433,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6248ce2d536547646b81057d0edca3ed
-      internalID: -1006822539
+      spriteID: 4a3832786de926b4c905602a5691f78f
+      internalID: 1301272619
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FlowerEnemyAttack_10
+      name: Flower-Attack-Phase_16
       rect:
         serializedVersion: 2
-        x: 800
+        x: 768
         y: 0
-        width: 80
-        height: 52
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -328,20 +454,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 802a7d144def62d43948a16878ffc0fc
-      internalID: 301161620
+      spriteID: db9a8a35feecc2d45bc3a08720f9cba0
+      internalID: -582783795
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FlowerEnemyAttack_11
+      name: Flower-Attack-Phase_17
       rect:
         serializedVersion: 2
-        x: 880
+        x: 816
         y: 0
-        width: 80
-        height: 52
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -349,20 +475,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 318a3c041e4774246b0002e484cacf00
-      internalID: 961041216
+      spriteID: e40c5df3201b2eb47a94f831020129d9
+      internalID: -1719563193
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FlowerEnemyAttack_12
+      name: Flower-Attack-Phase_18
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5a6d8a052f530a41ae0ee0d3a30b29e
+      internalID: -1118875455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flower-Attack-Phase_19
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 038245ac962869b41b295ff7eb845576
+      internalID: 1721421658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flower-Attack-Phase_20
       rect:
         serializedVersion: 2
         x: 960
         y: 0
-        width: 80
-        height: 52
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -370,20 +538,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b9f058f5cc71ea4e9296dce3f63ac76
-      internalID: 1494803451
+      spriteID: ac7535e647cb5a7498ba0c1f915e9514
+      internalID: 990351442
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FlowerEnemyAttack_13
+      name: Flower-Attack-Phase_21
       rect:
         serializedVersion: 2
-        x: 1040
+        x: 1008
         y: 0
-        width: 80
-        height: 52
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -391,20 +559,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 086e0043f279d2648bd78e626ed492d4
-      internalID: 1857884025
+      spriteID: e086384b99abf12489442d038dd63a09
+      internalID: -1870711705
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FlowerEnemyAttack_14
+      name: Flower-Attack-Phase_22
       rect:
         serializedVersion: 2
-        x: 1120
+        x: 1056
         y: 0
-        width: 80
-        height: 52
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -412,20 +580,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8559597061a30024dabc8dea9e3e9c32
-      internalID: -130011498
+      spriteID: 7f7fa98dcc35b9d4899278c97d6ecfc9
+      internalID: 168866416
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FlowerEnemyAttack_15
+      name: Flower-Attack-Phase_23
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2169dfa4575957440b1151fac1de0d84
+      internalID: -606957477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flower-Attack-Phase_24
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44b3aba60ad6ea84e8b646b6dc7b1b3c
+      internalID: -631678193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flower-Attack-Phase_25
       rect:
         serializedVersion: 2
         x: 1200
         y: 0
-        width: 80
-        height: 52
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -433,20 +643,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 33fe556784349a649b39f36f3a419c53
-      internalID: -1178106559
+      spriteID: 58011cd4b60bc954e92094bac4dd6ec9
+      internalID: -1136727616
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FlowerEnemyAttack_16
+      name: Flower-Attack-Phase_26
       rect:
         serializedVersion: 2
-        x: 1280
+        x: 1248
         y: 0
-        width: 80
-        height: 52
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -454,20 +664,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b253de30b83cab442b7af112d86e3fd8
-      internalID: 2059925667
+      spriteID: 3450469e650186a43a0f8d853b13ffe2
+      internalID: -389047307
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FlowerEnemyAttack_17
+      name: Flower-Attack-Phase_27
       rect:
         serializedVersion: 2
-        x: 1360
+        x: 1296
         y: 0
-        width: 80
-        height: 52
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -475,20 +685,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5733915b90be964bafad582ea587970
-      internalID: -773812120
+      spriteID: 35eff4fdf3d5f714b8e174f183fe0e19
+      internalID: 1057551295
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FlowerEnemyAttack_18
+      name: Flower-Attack-Phase_28
       rect:
         serializedVersion: 2
-        x: 1440
+        x: 1344
         y: 0
-        width: 80
-        height: 52
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -496,218 +706,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 636790bdddbb3cf42a241707a49a0362
-      internalID: 1358640939
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FlowerEnemyAttack_19
-      rect:
-        serializedVersion: 2
-        x: 1520
-        y: 0
-        width: 80
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 056748a23efda8640aafcb23ef99bb3b
-      internalID: 1939662453
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FlowerEnemyAttack_20
-      rect:
-        serializedVersion: 2
-        x: 1600
-        y: 0
-        width: 80
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 92078e99fa4bb8d4d94e3d2e7610f41d
-      internalID: -1336043196
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FlowerEnemyAttack_21
-      rect:
-        serializedVersion: 2
-        x: 1680
-        y: 0
-        width: 80
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 36713c6ba12ccad4c972eef14bc4e00c
-      internalID: -1303814763
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FlowerEnemyAttack_22
-      rect:
-        serializedVersion: 2
-        x: 1760
-        y: 0
-        width: 80
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 471d370b55bd60f4690be35e83aeac51
-      internalID: -1906728105
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FlowerEnemyAttack_23
-      rect:
-        serializedVersion: 2
-        x: 1840
-        y: 0
-        width: 80
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 800c927a6eb414944abfff2ba163d382
-      internalID: -1651373968
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FlowerEnemyAttack_24
-      rect:
-        serializedVersion: 2
-        x: 1920
-        y: 0
-        width: 80
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7b1e5393f2ff1b147ab500cbe187d0a0
-      internalID: -103882231
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FlowerEnemyAttack_25
-      rect:
-        serializedVersion: 2
-        x: 2000
-        y: 0
-        width: 80
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bcee564dfb504f24baf20f06de572307
-      internalID: -650988750
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FlowerEnemyAttack_26
-      rect:
-        serializedVersion: 2
-        x: 2080
-        y: 0
-        width: 80
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 57b1f8328222b2648bfdcb428f545ea5
-      internalID: 1028494817
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FlowerEnemyAttack_27
-      rect:
-        serializedVersion: 2
-        x: 2160
-        y: 0
-        width: 80
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 840d1f6af13e3474da4b034dc451a92e
-      internalID: 464363618
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FlowerEnemyAttack_28
-      rect:
-        serializedVersion: 2
-        x: 2240
-        y: 0
-        width: 80
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7498823b0993c7e4a98d878f272f8a31
-      internalID: 1013379043
+      spriteID: 2af6a3df8dcdf6747818e74041a1996a
+      internalID: 1297708877
       vertices: []
       indices: 
       edges: []
@@ -723,35 +723,35 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      FlowerEnemyAttack_11: 961041216
-      FlowerEnemyAttack_23: -1651373968
-      FlowerEnemyAttack_4: 51468522
-      FlowerEnemyAttack_17: -773812120
-      FlowerEnemyAttack_12: 1494803451
-      FlowerEnemyAttack_28: 1013379043
-      FlowerEnemyAttack_27: 464363618
-      FlowerEnemyAttack_20: -1336043196
-      FlowerEnemyAttack_13: 1857884025
-      FlowerEnemyAttack_5: -470057587
-      FlowerEnemyAttack_2: -1267142944
-      FlowerEnemyAttack_3: 253716872
-      FlowerEnemyAttack_14: -130011498
-      FlowerEnemyAttack_6: -1578254176
-      FlowerEnemyAttack_16: 2059925667
-      FlowerEnemyAttack_21: -1303814763
-      FlowerEnemyAttack_7: -1914247713
-      FlowerEnemyAttack_1: -767883950
-      FlowerEnemyAttack_22: -1906728105
-      FlowerEnemyAttack_18: 1358640939
-      FlowerEnemyAttack_25: -650988750
-      FlowerEnemyAttack_24: -103882231
-      FlowerEnemyAttack_15: -1178106559
-      FlowerEnemyAttack_10: 301161620
-      FlowerEnemyAttack_19: 1939662453
-      FlowerEnemyAttack_8: -1499907366
-      FlowerEnemyAttack_9: -1006822539
-      FlowerEnemyAttack_0: 1469706202
-      FlowerEnemyAttack_26: 1028494817
+      Flower-Attack-Phase_16: -582783795
+      Flower-Attack-Phase_22: 168866416
+      Flower-Attack-Phase_28: 1297708877
+      Flower-Attack-Phase_9: -1723034809
+      Flower-Attack-Phase_25: -1136727616
+      Flower-Attack-Phase_14: -1434555097
+      Flower-Attack-Phase_23: -606957477
+      Flower-Attack-Phase_8: 817304293
+      Flower-Attack-Phase_13: -1049977901
+      Flower-Attack-Phase_11: -1188911961
+      Flower-Attack-Phase_2: 1265741057
+      Flower-Attack-Phase_0: -1595185982
+      Flower-Attack-Phase_5: -231917337
+      Flower-Attack-Phase_20: 990351442
+      Flower-Attack-Phase_7: 1046212756
+      Flower-Attack-Phase_26: -389047307
+      Flower-Attack-Phase_15: 1301272619
+      Flower-Attack-Phase_1: -850287101
+      Flower-Attack-Phase_19: 1721421658
+      Flower-Attack-Phase_24: -631678193
+      Flower-Attack-Phase_27: 1057551295
+      Flower-Attack-Phase_3: 1164128881
+      Flower-Attack-Phase_17: -1719563193
+      Flower-Attack-Phase_6: 825284726
+      Flower-Attack-Phase_4: -1898696532
+      Flower-Attack-Phase_10: 295729292
+      Flower-Attack-Phase_18: -1118875455
+      Flower-Attack-Phase_21: -1870711705
+      Flower-Attack-Phase_12: 1350357374
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

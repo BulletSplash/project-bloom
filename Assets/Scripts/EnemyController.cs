@@ -22,6 +22,8 @@ public class EnemyController : MonoBehaviour
 
     [Header("Components")]
     private Rigidbody2D rb;
+    private CharacterController2D controller2D;
+    private GameObject player;
     [SerializeField] private Transform target, bulletSpawnpoint;
     [SerializeField] private GameObject bulletPrefab;
     [SerializeField] private LayerMask playerLayer;
@@ -32,6 +34,8 @@ public class EnemyController : MonoBehaviour
 
     private void Awake()
     {
+        player = GameObject.Find("Player");
+        controller2D = player.GetComponent<CharacterController2D>();
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         maxHealth = stat.MaxHealth();
@@ -95,6 +99,13 @@ public class EnemyController : MonoBehaviour
 
         bullet.GetComponent<Rigidbody2D>().velocity = new Vector2(moveDirection.x, moveDirection.y) * shootSpeed;
         Destroy(bullet, desTime);
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.gameObject.tag == "Player")
+        {
+            StartCoroutine(controller2D.OnHitHeatlth());
+        }
     }
 
     private bool PlayerInsight()
